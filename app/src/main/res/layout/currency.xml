@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="wrap_content" tools:layout_editor_absoluteY="81dp">
+
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp" android:layout_marginEnd="8dp" android:layout_marginBottom="8dp">
+
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="1" android:layout_margin="8dp">
+
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView
+                        android:layout_width="32px"
+                        android:layout_height="32px"
+                        app:srcCompat="@mipmap/ic_launcher_round"
+                        android:id="@+id/favicon" android:layout_margin="1dp"/>
+                <TextView
+                        android:text="Currency"
+                        android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" android:id="@+id/bankTitle"
+                        android:textAlignment="textStart" android:textStyle="bold" android:layout_marginLeft="8dp"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView
+                        android:text="@string/currency"
+                        android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" android:id="@+id/textView" android:textStyle="bold"/>
+                <TextView
+                        android:text="@string/buying"
+                        android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" android:id="@+id/textView2" android:textStyle="bold"/>
+                <TextView
+                        android:text="@string/selling"
+                        android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" android:id="@+id/textView3" android:textStyle="bold"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView
+                        android:text="@string/eur"
+                        android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" android:id="@+id/textView4"/>
+                <TextView
+                        android:text="0"
+                        android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" android:id="@+id/eur_buy"/>
+                <TextView
+                        android:text="0"
+                        android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" android:id="@+id/eur_sell"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView
+                        android:text="@string/usd"
+                        android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" android:id="@+id/textView5"/>
+                <TextView
+                        android:text="0"
+                        android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" android:id="@+id/usd_buy"/>
+                <TextView
+                        android:text="0"
+                        android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" android:id="@+id/usd_sell"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView
+                        android:text="@string/rub"
+                        android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" android:id="@+id/textView7"/>
+                <TextView
+                        android:text="0"
+                        android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" android:id="@+id/rub_buy"/>
+                <TextView
+                        android:text="0"
+                        android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" android:id="@+id/rub_sell"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView
+                        android:text="@string/kzt"
+                        android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" android:id="@+id/textView8"/>
+                <TextView
+                        android:text="0"
+                        android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" android:id="@+id/kzt_buy"/>
+                <TextView
+                        android:text="0"
+                        android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" android:id="@+id/kzt_sell"/>
+            </TableRow>
+        </TableLayout>
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>

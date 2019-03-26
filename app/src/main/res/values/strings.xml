@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Currency exchange in Kyrgyzstan</string>
+    <string name="currency">Currency</string>
+    <string name="buy">Buy</string>
+    <string name="sell">Sell</string>
+    <string name="eur">Euro</string>
+    <string name="usd">USD</string>
+    <string name="rub">Ruble</string>
+    <string name="kzt">Tenge</string>
+    <string name="you_want">You want</string>
+    <string name="banks">Banks</string>
+    <string name="optima_bank">Optima bank</string>
+    <string name="demir_bank">DemirBank</string>
+    <string name="finca">Finca bank</string>
+    <string name="rosin_bank">Rosin bank</string>
+    <string name="finance_credit_bank">FinanceСreditBank</string>
+    <string name="ayil_bank">Aiyl Bank</string>
+    <string name="kicb_bank">KICB bank</string>
+    <string name="kyrgyz_kommerts_bank">Kyrgyzkommertsbank</string>
+    <string name="halyk_bank">Halyk bank</string>
+    <string name="bakai_bank">Bakai bank</string>
+    <string name="commercial_bank">Commercial bank KYRGYZSTAN</string>
+    <string name="bta_bank">BTA bank</string>
+    <string name="bank_of_pakistan">National Bank of Pakistan</string>
+    <string name="bank_asia">Bank Asia</string>
+    <string name="dos_credo_bank">DOS CREDO BANK</string>
+    <string name="capital_bank">CapitalBank</string>
+    <string name="baitushum_bank">Bai Tushum Bank</string>
+    <string name="evrasia_sber_bank">ESB</string>
+    <string name="tolubai_bank">“Tolubay” Bank</string>
+    <string name="rsk_bank">RSK Bank</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="info">Info</string>
+    <string name="nbkr">NBKR</string>
+    <string name="settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="close">Close</string>
+    <string name="som">SOM</string>
+    <string name="buying">Buying</string>
+    <string name="selling">Selling</string>
+    <string name="gbr">British pound</string>
+    <string name="dkk">Danish kron</string>
+    <string name="inr">Indian rupee</string>
+    <string name="cad">Canadian Dollar</string>
+    <string name="cny">Chinese Yuan Renminbi</string>
+    <string name="krw">South Korean Won</string>
+    <string name="nok">Norwegian krone</string>
+    <string name="xdr">SDR</string>
+    <string name="sek">Swedish krona</string>
+    <string name="chf">Swiss franc</string>
+    <string name="jpy">Japanese yen</string>
+    <string name="amd">Armenian dram</string>
+    <string name="byr">Belarussian ruble</string>
+    <string name="byn">Belarussian ruble</string>
+    <string name="mdl">Moldovan leu</string>
+    <string name="tjs">Tajikistan somoni</string>
+    <string name="uzs">Uzbekistan sum</string>
+    <string name="uah">Ukrainian hryvnia</string>
+    <string name="kwd">Kuwaiti dinar</string>
+    <string name="lang">en</string>
+    <string name="huf">Hungarian forint</string>
+    <string name="czk">Czech koruna</string>
+    <string name="nzd">New Zealand dollar</string>
+    <string name="pkr">Pakistan Rupee</string>
+    <string name="aud">Australian Dollar</string>
+    <string name="trytl">New Turkish Lira</string>
+    <string name="azn">Azerbaijan manat</string>
+    <string name="sgd">Singapore Dollar</string>
+    <string name="afn">Afghanistan Afghani</string>
+    <string name="bgn">Bulgarian Lev</string>
+    <string name="brl">Brazilian Real</string>
+    <string name="gel">Georgian Lari</string>
+    <string name="aed">UAE Dirham</string>
+    <string name="irr">Iranian Rial</string>
+    <string name="myr">Malaysian Ringgit</string>
+    <string name="mnt">Mongolian tugrik</string>
+    <string name="twd">New Taiwan Dollar</string>
+    <string name="tmt">New Turkmenistan Manat</string>
+    <string name="pln">Polish zloty</string>
+    <string name="sar">Saudi Arabian Riyal</string>
+    <string name="language">Language</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
